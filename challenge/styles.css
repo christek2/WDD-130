@@ -1,6 +1,8 @@
 body {
     background-color: pink;
     height: 100%;
+    text-align: center;
+    color: white;
 }
 
 img {
@@ -12,3 +14,31 @@ img {
 p {
     text-align: center;
 }
+
+main h2 {
+    color: black;
+    font-size: 0.75em;
+    margin: 0 400px;
+    font-weight: 900;
+}
+
+#big-quote {
+    font-size: 2em;
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+}
+
+footer {
+    color: black;
+}
+
+#small-quote {
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+#space2 {
+    height: 50px;
+}
+
