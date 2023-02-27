@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+.thingy {
+    background-color: white;
+    margin: auto auto;
+    width: 275px;
+    height: 650px;
+    align-content: center;
+    /* align-self: center; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 1fr 1fr 1fr 75px;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+#cityImage {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.postBody {
+    grid-column: 1/4;
+    grid-row: 3/5;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.readTime {
+    background-color: rgba(16, 115, 228, 0.664);
+    color: white;
+    border-right: solid white;
+    border-width: 1px;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: 0.75em;
+}
+
+.viewCount {
+    background-color: rgba(16, 115, 228, 0.664);
+    color: white;
+    border-right: solid white;
+    border-width: 1px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-size: 0.75em;
+}
+
+.commentCount {
+    background-color: rgba(16, 115, 228, 0.664);
+    color: white;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    font-size: 0.75em;
+}
+
+#timeElapsed {
+    font-size: 0.75em;
+}
+
+#postContent {
+    color: gray;
+}
