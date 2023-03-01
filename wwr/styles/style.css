@@ -253,7 +253,6 @@ nav {
 .linkToHome {
     text-decoration: none;
     background-color: #731963;
-    color: #CBD2D0;
     line-height: 1.5em;
     padding: 35px;
     border-radius: 10px;
@@ -261,7 +260,13 @@ nav {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #797e6b;
     text-align: center;
-    
+}
+
+.link {
+    text-decoration: none;
+    color: #CBD2D0;
+    font-family: 'Rock Salt', 'Bradly Hand', sans-serif;
+    font-size: 1.3em;
 }
 
 
