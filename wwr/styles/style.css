@@ -74,13 +74,18 @@ nav a:hover {
     color: #CBD2D0;
 }
 
-.msg {
+.msg, .intro {
     background-color: #6a8b94;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #797e6b;
+}
+
+.intro {
+    color: #CBD2D0;
+    text-align: center;
 }
 
 footer {
@@ -223,6 +228,10 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #797e6b;
+}
+
+#riverImg {
+    border: solid #CBD2D0;
 }
 
 
