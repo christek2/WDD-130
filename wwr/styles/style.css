@@ -260,7 +260,7 @@ nav {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #797e6b;
     text-align: center;
-    width: 60%;
+    margin: 20px;
 }
 
 .link {
