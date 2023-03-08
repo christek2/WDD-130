@@ -1,0 +1,42 @@
+body {
+    background-color: #685044;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+    color: #F9DEC9;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    grid-column: 1/2;
+    width: 80px;
+}
+
+#logo_link {
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+#bom-pic {
+
+    margin-top: 100px;
+    z-index: -1;
+}
