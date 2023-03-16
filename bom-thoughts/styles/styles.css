@@ -182,3 +182,44 @@ footer a {
     width: 25%;
     border: solid #3A405A;
 }
+
+.sub3main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 400px 400px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+}
+
+.sub3main h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 50px;
+}
+
+#expintro {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+#trustimage {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: solid #3A405A;
+}
+
+#handsimage {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: solid #3A405A;
+}
+
+#expoutro {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 50px;
+}
