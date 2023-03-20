@@ -70,11 +70,12 @@ section {
 
 .second {
     padding: 50px;
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin: 0 auto;
     width: 45%;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
+    column-gap: 100px;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -187,6 +188,7 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 150px 400px 400px;
+    column-gap: 100px;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
