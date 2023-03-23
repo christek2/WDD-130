@@ -71,7 +71,7 @@ section {
     padding: 50px;
     font-size: 1.25em;
     margin: 0 auto;
-    width: 45%;
+    width: 60%;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     column-gap: 100px;
@@ -196,7 +196,7 @@ footer a {
 .sub3main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 400px 400px;
+    grid-template-rows: 0.5fr 4fr;
     column-gap: 100px;
     text-align: center;
     padding-left: 100px;
@@ -223,12 +223,14 @@ footer a {
 }
 
 #trustimage {
+    width: 90%;
     grid-column: 1/2;
     grid-row: 3/4;
     border: solid #3A405A;
 }
 
 #handsimage {
+    width: 90%;
     grid-column: 2/3;
     grid-row: 2/3;
     border: solid #3A405A;
