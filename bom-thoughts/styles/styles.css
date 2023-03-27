@@ -63,6 +63,9 @@ section {
 
 .first h2 {
     margin: 0 auto;
+    background-color: #685044;
+    color: #F9DEC9;
+    border-radius: 15px;
     width: 60%;
     padding: 50px
 }
@@ -180,6 +183,10 @@ footer a {
 
 .fourth {
     margin: 0 auto;
+    background-color: #685044;
+    color: #F9DEC9;
+    border-radius: 15px;
+    padding: 50px;
     width: 85%;
     grid-column: 1/5;
     grid-row: 2/3;
@@ -215,11 +222,14 @@ footer a {
 }
 
 #expintro {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #685044;
+    color: #F9DEC9;
+    border-radius: 15px;
+    padding: 50px;
     grid-column: 1/2;
     grid-row: 2/3;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 20px;
 }
 
 #trustimage {
@@ -227,6 +237,7 @@ footer a {
     grid-column: 1/2;
     grid-row: 3/4;
     border: solid #3A405A;
+    margin-top: 50px;
 }
 
 #handsimage {
@@ -234,11 +245,16 @@ footer a {
     grid-column: 2/3;
     grid-row: 2/3;
     border: solid #3A405A;
+    margin-bottom: 50px;
 }
 
 #expoutro {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #685044;
+    color: #F9DEC9;
+    border-radius: 15px;
+    padding: 50px;
     grid-column: 2/3;
     grid-row: 3/4;
-    padding: 50px;
-    padding-left: 20px;
 }
