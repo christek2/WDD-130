@@ -74,10 +74,10 @@ section {
     padding: 50px;
     font-size: 1.25em;
     margin: 0 auto;
-    width: 60%;
+    width: 900px;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
-    column-gap: 100px;
+    column-gap: 80px;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -97,7 +97,7 @@ section {
 
 #americas {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     grid-column: 2/3;
     grid-row: 2/3;
     align-items: center;
@@ -159,8 +159,6 @@ footer a {
     grid-template-rows: 650px 1fr;
     text-align: center;
     padding-bottom: 100px;
-    /* padding-left: 100px;
-    padding-right: 100px; */
 }
 
 .third {
@@ -257,4 +255,12 @@ footer a {
     padding: 50px;
     grid-column: 2/3;
     grid-row: 3/4;
+}
+
+
+@media screen and (max-width: 900px) {
+    main {
+        display: block;
+        font-size: large;
+    }
 }
