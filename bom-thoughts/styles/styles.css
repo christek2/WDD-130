@@ -116,7 +116,7 @@ footer {
 }
 
 #bottom {
-    
+
     padding: 10px;
     justify-self: center;
     align-self: center;
@@ -259,12 +259,67 @@ footer a {
 
 
 @media screen and (max-width: 900px) {
-    main {
+    section {
         display: block;
         font-size: large;
+    }
+    .second {
+        display: block;
+        width: 50%;
+    }
+    .second h2 {
+        padding: 0;
+    }
+    #americas {
+        width: 50%;
+    }
+    #christimage {
+        width: 80%;
+        height: 30%;
+    }
+    .third {
+        padding-bottom: 20px;
+    }
+    .fourth {
+        width: 55%;
+        margin: 0 auto;
+        font-size: 0.8em;
+    }
+    .sub3main {
+        display: block;
+        margin: 0 auto;
+    }
+    .sub3main h1 {
+        width: 100%;
+        font-size: 2em;
+    }
+    #trustimage {
+        width: 225px;
+    }
+    #handsimage {
+        margin-top: 20px;
+        width: 225px;
+    }
+    nav {
+        flex-direction: column;
     }
     nav a {
         display: block;
         padding: 15px;
+        font-size: 0.9em;
+    }
+    nav a:hover {
+        font-weight: bold;
+        font-size: 0.9em;
+        color: #3A405A;
+    }
+    footer div {
+        margin: 0 auto;
+        padding: 10px;
+        display: block;
+        justify-content: space-around;
+    }
+    #copyright, .plan {
+        font-size: .9em;
     }
 }
