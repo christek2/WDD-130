@@ -263,4 +263,8 @@ footer a {
         display: block;
         font-size: large;
     }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
 }
